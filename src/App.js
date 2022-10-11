@@ -16,8 +16,9 @@ import ScrollToTop from "./components/Scroll";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Experience from "./components/WorkExperience/experience";
 
-function App() {
+const App = () => {
   const [load, upadateLoad] = useState(true);
 
   useEffect(() => {
@@ -39,6 +40,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />

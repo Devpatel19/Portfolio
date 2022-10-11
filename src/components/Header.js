@@ -12,7 +12,7 @@ import {
 
 import { CgFileDocument } from "react-icons/cg";
 
-function NavBar() {
+const NavBar = () => {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
@@ -76,6 +76,18 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Work Experience
               </Nav.Link>
             </Nav.Item>
 

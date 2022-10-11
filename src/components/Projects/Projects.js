@@ -9,7 +9,7 @@ import alumni from "../../Assets/Projects/alumni.jpeg";
 import hostel from "../../Assets/Projects/hostel.jpeg";
 import DevShop from "../../Assets/Projects/DevShop.jpeg";
 
-function Projects() {
+const Projects = () => {
   return (
     <Container fluid className="project-section">
       <Particle />
