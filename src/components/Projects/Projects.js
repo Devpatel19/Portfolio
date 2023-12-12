@@ -28,7 +28,7 @@ const Projects = () => {
               title="College Alumni Portal"
               description="An alumni portal is a platform where the college, alumni and the college students can interact with each other for their benefit."
               ghLink="https://github.com/Devpatel19/College-Alumni-Portal.git"
-              demoLink="https://collegealumniportal.herokuapp.com/"
+              demoLink="https://college-alumni-portal.onrender.com"
             />
           </Col>
 
@@ -38,8 +38,8 @@ const Projects = () => {
               isBlog={false}
               title="E Commerce Website using MERN stack"
               description="The website that allows user to search product, buy a product, add to cart, edit profile, pay using paypal, login and signup. We build a Full Stack Web-App using MERN stack."
-              ghLink="https://github.com/Devpatel19/DEVSHOP.git"
-              demoLink="https://devshop19.herokuapp.com/"
+              ghLink="https://github.com/Devpatel19/DEVSHOP-V2.git"
+              demoLink="https://devshop.onrender.com"
             />
           </Col>
 
